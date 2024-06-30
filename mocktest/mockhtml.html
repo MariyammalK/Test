@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="mockcss.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body style="background-color: #001e4d;">
+    <nav>
+        <div class="box">
+            <img src="E:\mocktest\mocklogo.jpeg" alt="Logo" class="logo">
+            <span class="title">Mock Test</span>
+        </div>
+    </nav> 
+    <div class="main-container">
+        <div class="app">
+            <div id="quiz" class="quiz">
+                <h2 id="question"> Mock Test </h2>
+                <div id="answer-buttons">
+                    <!-- Radio buttons will be dynamically generated here -->
+                </div>
+                <button id="preview-btn" onclick="previewQuestion()"> Previous </button>
+                <button id="next-btn" onclick="nextQuestionOrSubmit()"> Save and Submit </button>
+            </div>
+            <div id="result-container" style="display: none;"></div>
+            <div style="width: 300px; height: 300px">
+                <canvas id="resultsChart" style="display:none"></canvas>
+            </div>
+        </div>
+        <div class="buttons-container">
+            <!-- Adding 20 buttons -->
+            <button class="side-button"> 1 </button>
+            <button class="side-button"> 2 </button>
+            <button class="side-button"> 3 </button>
+            <button class="side-button"> 4 </button>
+            <button class="side-button"> 5 </button>
+            <button class="side-button"> 6 </button>
+            <button class="side-button"> 7 </button>
+            <button class="side-button"> 8 </button>
+            <button class="side-button"> 9 </button>
+            <button class="side-button"> 10 </button>
+            <button class="side-button"> 11 </button>
+            <button class="side-button"> 12 </button>
+            <button class="side-button"> 13 </button>
+            <button class="side-button"> 14 </button>
+            <button class="side-button"> 15 </button>
+            <button class="side-button"> 16 </button>
+            <button class="side-button"> 17 </button>
+            <button class="side-button"> 18 </button>
+            <button class="side-button"> 19 </button>
+            <button class="side-button"> 20 </button>
+        </div>
+    </div>
+    <script src="mockjs.js"></script>
+</body>
+</html>

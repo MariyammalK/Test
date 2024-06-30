@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #001e4d;
+    color: #fff;
+    
+}
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.quiz h2 {
+    font-size: 20px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 20px;
+    margin-bottom: 20px; /* Added margin-bottom to create space below the question */
+}
+
+.title{   
+    font-size: 30;
+    color: #001e4d;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    font-display: bold;
+    margin-right: 1200px;
+    text-align: left;
+} 
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+    padding: 10px 20px;
+    background-color: #d1cfcf;
+    border-bottom: 1px solid #ccc;
+
+}
+.app {
+    color: #001e4d;
+    text-align: left;
+    text-align: center;
+    padding: 20px;
+}
+
+.quiz {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+    max-width: 500px;
+}
+
+#answer-buttons {
+    font-size: 20px;
+    color: #001e4d;
+    font-weight: 600;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.option {
+    margin: 10px 0;
+}
+
+.option input {
+    margin-right: 10px;
+}
+#preview-btn{
+    background-color: #001e4d;
+    color: white;
+    border: none;
+    margin-left: 280px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left:100px;
+    justify-content: right;
+    font-size:15px;
+}
+
+#next-btn  {
+    background-color: #001e4d;
+    color: white;
+    border: none;
+    margin-left: 280px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left:100px;
+    justify-content: right;
+    font-size:15px;
+}
+
+#result-container {
+    display: block;
+   /* text-align: center; */
+    position:absolute;
+    left:25%;
+    margin-top: 18px;
+    
+}
+#resultsChart {
+    display: block; /* Ensures the canvas is a block element */
+    margin: 0 auto; /* Centers the canvas horizontally */
+    max-width: 100%; /* Optional: limits the max width of the chart */
+   /* justify-content: space-between;
+    align-items: center;*/
+    position:absolute;
+    left:60%;
+    margin-top:10px;
+}
+.side-button {
+    margin-left: 18px;
+    margin-top: 18px;
+    margin-right: 18px;
+    display: flex;
+    background-color: rgb(148, 148, 252);
+    color:white;
+    border: none;
+    padding: 20px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align:center;
+    height:fit-content;
+}
+.side-button:hover  {
+    background-color: #001e4d;
+}
+.main-container {
+    display: flex;
+    justify-content: space-between;
+}
+.app {
+    flex: 1;
+}
+.buttons-container {
+    border-radius: 5px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-gap: 3px; /* Space between buttons */
+    width: fit-content;
+    height: 480px;
+   margin-right : 20px;
+}
